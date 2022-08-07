@@ -1,3 +1,5 @@
+# Airbnb Clone
+
 ## Table of Contents
 
 -   [Description](#description)
@@ -84,7 +86,7 @@ The following commands are supported:
 
 ### create:
 
-Creates a new instance of BaseModel, saves it (to the JSON file) and prints the id.
+Creates a new instance of User, saves it (to the JSON file) and prints the id.
 Ex:
 
 ```
@@ -118,7 +120,7 @@ Example to show all instances
 $ all
 ```
 
-Example to show all instances of BaseModel only
+Example to show all instances of User only
 
 ```
 $ all User
