@@ -2,7 +2,7 @@ AirBnB Clone License: MIT Build Status HBnB Logo
 
 Contents Description Environment Further Information Requirements Repo Contents Installation Usage Built with Acknowledgements
 
-**Description** 
+**Description**
 
 This is the first phase of a four phase project, to create a basic clone of the AirBnB web app. In this first phase a basic console was created using the Cmd Python module, to manage the objects of the whole project, being able to implement the methods create, show, update, all, and destroy to the existing classes and subclasses.
 
@@ -24,11 +24,11 @@ AUTHORS Contains info about authors of the project base_model.py Defines BaseMod
 test_base_model.py unittests for base_model test_user.py unittests for user test_amenity.py unittests for amenity test_city.py unittests for city test_place.py unittests for place test_review.py unittests for review test_state.py unittests for state test_file_storage.pyunittests for file_storage test_console.py unittests for console
 
 **Instalation**
-to install the project, clone the repo and run the console.py 
+to install the project, clone the repo and run the console.py
 
 **Usage 🔧**
 
 Method Description create Creates object of given class show Prints the string representation of an instance based on the class name and id all Prints all string representation of all instances based or not on the class name update Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file) destroy Deletes an instance based on the class name and id (save the change into the JSON file) count Retrieve the number of instances of a class help Prints information about specific command quit/ EOF Exit the program Example No.1 ➜ AirBnB_clone git:(feature) ✗ ./console.py (hbnb) create User bb4f4b81-7757-460b-9263-743c9ea6fef6 (hbnb) show User bb4f4b81-7757-460b-9263-743c9ea6fef6 [User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)} (hbnb) all User ["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)}"] (hbnb) update User bb4f4b81-7757-460b-9263-743c9ea6fef6 name Betty ['User', 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name', 'Betty'] (hbnb) all User ["[User] (bb4f4b81-7757-460b-9263-743c9ea6fef6) {'updated_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492139), 'id': 'bb4f4b81-7757-460b-9263-743c9ea6fef6', 'name': 'Betty', 'created_at': datetime.datetime(2019, 11, 13, 17, 7, 45, 492106)}"] (hbnb) destroy User bb4f4b81-7757-460b-9263-743c9ea6fef6 (hbnb) all User [] (hbnb) show User ** instance id missing ** (hbnb)
 
 **Authors 🖋️**
-Samuel makinde https://github.com/Samuel-Makinde & Samuel Anozie
+Samuel Makinde https://github.com/Samuel-Makinde & Samuel Anozie https://github.com/samcoded
