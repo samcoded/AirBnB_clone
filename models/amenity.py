@@ -1,10 +1,15 @@
 #!/usr/bin/python3
-"""
-Defines amenities
-"""
-from models.base_model import BaseModel
+""" State Module for HBNB project """
+from models.base_model import BaseModel, Base
+from sqlalchemy import Column, String
+import models
 
 
-class Amenity(BaseModel):
-    """Defines amenities that user can choose from to offer at its place"""
-    name = ""
+class Amenity(BaseModel, Base):
+    """Amenity Class"""
+    if models.storage_type == 'db':
+        __tablename__ = "amenities"
+        name = Column(String(128), nullable=False)
+
+    else:
+        name = ""
